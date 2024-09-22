@@ -106,8 +106,8 @@ const Speedometer: React.FC<SpeedometerProps> = React.memo(
             <g key={`gear-${i}`}>
               <path
                 d={createGearLine(0, 0, 34, 38, angle)}
-                stroke="#ffffff"
-                strokeWidth="0.7"
+                stroke="#365d85"
+                strokeWidth="1.0"
                 opacity="0.7"
               />
             </g>

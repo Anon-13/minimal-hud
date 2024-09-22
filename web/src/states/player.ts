@@ -14,16 +14,16 @@ export interface PlayerStateInterface {
 }
 
 const mockPlayerState: PlayerStateInterface = {
-    health: 100,
-    armor: 100,
-    hunger: 50,
+    health: 55,
+    armor: 0,
+    hunger: 100,
     thirst: 100,
-    stress: 0,
+    stress: 5,
     streetLabel: "Downtown Vinewood",
     areaLabel: "Vinewood Blvd",
     heading: "NW",
     isSeatbeltOn: false,
-    isInVehicle: false,
+    isInVehicle: true,
 };
 
 const playerState = atom<PlayerStateInterface>(mockPlayerState);

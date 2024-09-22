@@ -9,7 +9,7 @@ interface TextProgressBarProps extends React.HTMLAttributes<HTMLDivElement> {
 export const TextProgressBar = ({
   value = 50,
   label = "FUEL",
-  color = "#94f024",
+  color = "#19abca",
   ...props
 }: TextProgressBarProps) => {
   const getColor = useMemo(() => {

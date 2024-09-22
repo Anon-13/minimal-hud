@@ -35,7 +35,7 @@ export default {
                 "4k": "3840px",
             },
             colors: {
-                primary: "#94f024",
+                primary: "#19abca",
                 border: "#434346",
                 secondaryBorder: "#646260",
                 gradientDark: {
